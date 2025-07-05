@@ -1,0 +1,55 @@
+---
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/assets/css/all.min.css" />
+    <link rel="stylesheet" href="/assets/css/animate.css" />
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/css/custom.css" />
+    <link rel="stylesheet" href="/assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="/assets/css/mousecursor.css" />
+    <link rel="stylesheet" href="/assets/css/slicknav.min.css" />
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
+
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro Basics</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <slot />
+    <Footer />
+
+    <!-- JavaScript files -->
+    <script src="/assets/js/jquery-3.7.1.min.js" is:inline></script>
+    <script src="/assets/js/bootstrap.min.js" is:inline></script>
+    <script src="/assets/js/gsap.min.js" is:inline></script>
+    <script src="/assets/js/ScrollTrigger.min.js" is:inline></script>
+    <script src="/assets/js/SplitText.js" is:inline></script>
+    <script src="/assets/js/SmoothScroll.js" is:inline></script>
+    <script src="/assets/js/wow.min.js" is:inline></script>
+    <script src="/assets/js/jquery.counterup.min.js" is:inline></script>
+    <script src="/assets/js/jquery.magnific-popup.min.js" is:inline></script>
+    <script src="/assets/js/jquery.mb.YTPlayer.min.js" is:inline></script>
+    <script src="/assets/js/jquery.slicknav.js" is:inline></script>
+    <script src="/assets/js/jquery.waypoints.min.js" is:inline></script>
+    <script src="/assets/js/magiccursor.js" is:inline></script>
+    <script src="/assets/js/parallaxie.js" is:inline></script>
+    <script src="/assets/js/swiper-bundle.min.js" is:inline></script>
+    <script src="/assets/js/validator.min.js" is:inline></script>
+    <script src="/assets/js/function.js" is:inline></script>
+  </body>
+</html>
