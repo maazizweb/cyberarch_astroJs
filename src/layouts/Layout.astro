@@ -1,6 +1,8 @@
 ---
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
+import Breadcrumb from "../components/Breadcrumb.astro";
+import Preloader from "../components/Preloader.astro";
 ---
 
 <html lang="en">
@@ -30,7 +32,10 @@ import Header from "../components/Header.astro";
   </head>
   <body>
     <Header />
+    <Preloader/>
+    <!-- <Breadcrumb /> -->
     <slot />
+
     <Footer />
 
     <!-- JavaScript files -->

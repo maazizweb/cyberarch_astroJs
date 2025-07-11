@@ -584,7 +584,7 @@ header.main-header .header-sticky.active{
 	visibility: visible;
 	opacity: 1;
 	transform: scale(1,1);
-    padding: 5px 0;
+    padding: 10px 0 10px;
 }
 
 .main-menu ul li.submenu ul li.submenu > a:after{
@@ -1034,7 +1034,7 @@ header.main-header .header-sticky.active{
 
 .about-us{
 	position: relative;
-	padding: 180px 0 90px;
+	padding: 80px 0 80px;
 	z-index: 1;
 }
 
@@ -1042,8 +1042,8 @@ header.main-header .header-sticky.active{
 	content: '';
     display: block;
     position: absolute;
-    right: -70px;
-    top: 50%;
+    right: -110px;
+    top: 0%;
     background: url(../images/section-bg-shape-1.png) no-repeat;
     background-position: right center;
     background-size: cover;
@@ -1269,7 +1269,7 @@ header.main-header .header-sticky.active{
 
 .our-specialties{
 	position: relative;
-	padding: 90px 0;
+	padding: 80px 0 80px;
 	z-index: 1;
 }
 
@@ -1579,7 +1579,7 @@ header.main-header .header-sticky.active{
 
 .why-choose-us{
 	position: relative;
-	padding: 90px 0;
+	padding: 80px 0 80px;
 	z-index: 1;
 }
 
@@ -1849,7 +1849,7 @@ header.main-header .header-sticky.active{
 
 .our-features{
 	position: relative;
-	padding: 90px 0 60px;
+	padding: 80px 0 80px;
 	z-index: 1;
 }
 
@@ -2304,7 +2304,7 @@ header.main-header .header-sticky.active{
 
 .our-faqs{
 	position: relative;
-	padding: 90px 0;
+	padding: 80px 0 80px;
 	z-index: 1;
 }
 
@@ -2513,7 +2513,7 @@ header.main-header .header-sticky.active{
 	content: '';
     display: block;
     position: absolute;
-    right: -70px;
+    left: -70px;
     top: 50%;
     background: url(../images/section-bg-shape-1.png) no-repeat;
     background-position: right center;
@@ -2997,7 +2997,7 @@ header.main-header .header-sticky.active{
 
 .who-we-are{
     position: relative;
-    padding: 90px 0;
+    padding:60px 0 60px;
     z-index: 1;
 }
 
@@ -3214,7 +3214,7 @@ header.main-header .header-sticky.active{
 
 .our-success{
     position: relative;
-    padding: 90px 0;
+    padding: 80px 0 80px;
     z-index: 1;
 }
 
@@ -4027,7 +4027,7 @@ header.main-header .header-sticky.active{
 
 .page-case-study-single{
     position: relative;
-    padding: 180px 0;
+    padding: 60px 0 60px;
     z-index: 1;
 }
 

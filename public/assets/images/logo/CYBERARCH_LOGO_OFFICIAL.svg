@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 827 196">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        font-family: CragresRegular, Cragres;
+        font-size: 73.8px;
+      }
+
+      .cls-3 {
+        fill: #004877;
+      }
+
+      .cls-4 {
+        fill: #fefefe;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="cls-3" points="88.72 166.03 13 142.03 14 82.03 88.72 53.03 88.72 166.03"/>
+    <polygon class="cls-3" points="88.56 166.03 164.56 142.35 146 82.03 88.56 53.03 88.56 166.03"/>
+    <path class="cls-1" d="M53.98,101.66l34.04-6.66v-41.91L13.76,83.29l.33,58.48,74.39,22.16-1.15-43.25-32.85.26s-1.01,9.61,0,9.81-20.53-2.47-20.53-2.47v-28.03l20.53-7.98-.51,9.4Z"/>
+    <g>
+      <polygon class="cls-4" points="130.12 58.8 120.43 57.24 90.27 163.73 116.19 156.56 143.65 70.19 130.12 58.8"/>
+      <polygon class="cls-4" points="144.84 82.7 140.96 123.99 130.25 125.95 126.22 140.73 145.1 135.78 149.09 146.43 165 141.03 144.84 82.7"/>
+    </g>
+  </g>
+  <text class="cls-2" transform="translate(179.19 134.08)"><tspan x="0" y="0">CYBERARCH</tspan></text>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 827 196">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: CragresRegular, Cragres;
+        font-size: 73.8px;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(153.19 118.08)"><tspan x="0" y="0">CYBERARCH</tspan></text>
+  <image width="1024" height="1024" transform="translate(25 32) scale(.12)" xlink:href="../../../../../../PROJECT_DEVELOPMENT_2023/cyberArch_AstroJs/lonely-limb/public/assets/images/logo/icon-logo.png"/>
+</svg>

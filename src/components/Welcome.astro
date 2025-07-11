@@ -1,16 +1,16 @@
 ---
 import astroLogo from "../assets/astro.svg";
 import background from "../assets/background.svg";
+import Services from "./Services.astro";
 ---
 
-<!-- Preloader Start -->
-<div class="preloader">
-  <div class="loading-container">
-    <div class="loading"></div>
-    <div id="loading-icon"><img src="/assets/images/loader.svg" alt="" /></div>
-  </div>
-</div>
-<!-- Preloader End -->
+<style>
+  .faqs-contact-item {
+    display: flex;
+    align-items: flex-start !important;
+  }
+</style>
+
 
 <!-- Hero Section Start -->
 <div class="hero">
@@ -62,383 +62,120 @@ import background from "../assets/background.svg";
         <!-- Hero Content End -->
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-lg-12">
-        <!-- Hero Company Slider Start -->
-        <div class="hero-company-slider">
-          <p>
-            We're Trusted by more than <span class="counter">1000</span>+
-            companies
-          </p>
-
-          <div class="swiper">
-            <div class="swiper-wrapper">
-              <!-- Company Logo Start -->
-              <div class="swiper-slide">
-                <div class="company-logo">
-                  <img src="/assets/images/company-logo-1.svg" alt="" />
-                </div>
-              </div>
-              <!-- Company Logo End -->
-
-              <!-- Company Logo Start -->
-              <div class="swiper-slide">
-                <div class="company-logo">
-                  <img src="/assets/images/company-logo-2.svg" alt="" />
-                </div>
-              </div>
-              <!-- Company Logo End -->
-
-              <!-- Company Logo Start -->
-              <div class="swiper-slide">
-                <div class="company-logo">
-                  <img src="/assets/images/company-logo-3.svg" alt="" />
-                </div>
-              </div>
-              <!-- Company Logo End -->
-
-              <!-- Company Logo Start -->
-              <div class="swiper-slide">
-                <div class="company-logo">
-                  <img src="/assets/images/company-logo-4.svg" alt="" />
-                </div>
-              </div>
-              <!-- Company Logo End -->
-
-              <!-- Company Logo Start -->
-              <div class="swiper-slide">
-                <div class="company-logo">
-                  <img src="/assets/images/company-logo-1.svg" alt="" />
-                </div>
-              </div>
-              <!-- Company Logo End -->
-
-              <!-- Company Logo Start -->
-              <div class="swiper-slide">
-                <div class="company-logo">
-                  <img src="/assets/images/company-logo-2.svg" alt="" />
-                </div>
-              </div>
-              <!-- Company Logo End -->
-
-              <!-- Company Logo Start -->
-              <div class="swiper-slide">
-                <div class="company-logo">
-                  <img src="/assets/images/company-logo-3.svg" alt="" />
-                </div>
-              </div>
-              <!-- Company Logo End -->
-            </div>
-          </div>
-        </div>
-        <!-- Hero Company Slider End -->
-      </div>
-    </div>
   </div>
 </div>
 <!-- Hero Section End -->
 
-<!-- Scrolling Ticker Section Start -->
-<div class="our-scrolling-ticker">
-  <!-- Scrolling Ticker Start -->
-  <div class="scrolling-ticker-box">
-    <div class="scrolling-content">
-      <span><img src="/assets/images/star-icon.svg" alt="" />Healthcare</span>
-      <span><img src="/assets/images/star-icon.svg" alt="" />Finance and Banking</span>
-      <span><img src="/assets/images/star-icon.svg" alt="" />Legal and Law Firms</span>
-      <span
-        ><img src="/assets/images/star-icon.svg" alt="" />Government and Public Sector</span
-      >
-      <span
-        ><img src="/assets/images/star-icon.svg" alt="" />Technology and Software</span
-      >
-      <span><img src="/assets/images/star-icon.svg" alt="" />Healthcare</span>
-      <span><img src="/assets/images/star-icon.svg" alt="" />Finance and Banking</span>
-      <span><img src="/assets/images/star-icon.svg" alt="" />Legal and Law Firms</span>
-      <span
-        ><img src="/assets/images/star-icon.svg" alt="" />Government and Public Sector</span
-      >
-      <span
-        ><img src="/assets/images/star-icon.svg" alt="" />Technology and Software</span
-      >
-    </div>
-
-    <div class="scrolling-content">
-      <span><img src="/assets/images/star-icon.svg" alt="" />Healthcare</span>
-      <span><img src="/assets/images/star-icon.svg" alt="" />Finance and Banking</span>
-      <span><img src="/assets/images/star-icon.svg" alt="" />Legal and Law Firms</span>
-      <span
-        ><img src="/assets/images/star-icon.svg" alt="" />Government and Public Sector</span
-      >
-      <span
-        ><img src="/assets/images/star-icon.svg" alt="" />Technology and Software</span
-      >
-      <span><img src="/assets/images/star-icon.svg" alt="" />Healthcare</span>
-      <span><img src="/assets/images/star-icon.svg" alt="" />Finance and Banking</span>
-      <span><img src="/assets/images/star-icon.svg" alt="" />Legal and Law Firms</span>
-      <span
-        ><img src="/assets/images/star-icon.svg" alt="" />Government and Public Sector</span
-      >
-      <span
-        ><img src="/assets/images/star-icon.svg" alt="" />Technology and Software</span
-      >
-    </div>
-  </div>
-  <!-- Scrolling Ticker End -->
-</div>
-<!-- Scrolling Ticker Section End -->
-
 <!-- About Us Section Start -->
 <div class="about-us">
   <div class="container">
-    <div class="row section-row align-items-center">
-      <div class="col-lg-12">
-        <!-- Section Title Start -->
-        <div class="section-title section-title-center">
-          <h3 class="wow fadeInUp">About Us</h3>
-          <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
-            We provide innovative solutions to help your cybersecurity startup
-            grow, building a trusted <span>brand with precision</span>
-          </h2>
-        </div>
-        <!-- Section Title End -->
-      </div>
-    </div>
+    <!-- About us Section Start -->
+    <div class="our-facNOImg">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <!-- Our Facts Content Start -->
+            <div class="our-facts-content">
+              <!-- Section Title Start -->
+              <div class="section-title">
+                <h3 class="wow fadeInUp">About Us</h3>
+                <h2
+                  class="wow fadeInUp"
+                  data-wow-delay="0.2s"
+                  data-cursor="-opaque"
+                >
+                  We provide top-tier cybersecurity services to <span>
+                    protect your business</span
+                  >
+                </h2>
+                <p class="wow fadeInUp" data-wow-delay="0.4s">
+                  Our team of certified IT security professionals possesses
+                  extensive experience in the field, keeping up with the latest
+                  threats and best practices.
+                </p>
+                <p class="wow fadeInUp" data-wow-delay="0.6s">
+                  Protect your business from cyber threats with our
+                  comprehensive IT security services. Contact us today to
+                  discuss your security needs and take the first step towards a
+                  safer digital future.
+                </p>
+              </div>
 
-    <div class="row">
-      <div class="col-lg-4">
-        <!-- About Counter Box Start -->
-        <div class="about-counter-box">
-          <h2><span class="counter">26</span></h2>
-          <p>Years of work experience</p>
-        </div>
-        <!-- About Counter Box End -->
-      </div>
+              <div class="accordion-item-content w-100">
+                <ul>
+                  <li>Vulnerability Assessment and Penetration Testing</li>
+                  <li>Managed Firewall</li>
+                  <li>Intrusion Detection/Prevention Systems (IDS/IPS)</li>
+                  <li>Endpoint Security</li>
+                  <li>Security Awareness Training</li>
+                  <li>Cloud Security</li>
+                </ul>
+              </div>
+              <!-- Section Title End -->
 
-      <div class="col-lg-8">
-        <!-- About Us Content Start -->
-        <div class="about-us-content">
-          <!-- About Us List Start -->
-          <div class="about-us-list">
-            <!-- About List Item Start -->
-            <div class="about-list-item wow fadeInUp">
-              <img src="/assets/images/icon-about-item-1.svg" alt="" />
-              <h3>Our mission</h3>
-              <p>
-                At the core of our mission is the belief that every business
-                deserves a customized cybersecurity.
-              </p>
+              <!-- Our Specialties Button Start -->
+              <div
+                class="our-facts-btn wow fadeInUp py-4"
+                data-wow-delay="0.8s"
+              >
+                <a href="contact.html" class="btn-default">learn more</a>
+              </div>
+              <!-- Our Specialties Button End -->
+
+              <!-- Facts Counter Box Start -->
+
+              <!-- Facts Counter Box End -->
             </div>
-            <!-- About List Item End -->
+            <!-- Our Facts Content End -->
+          </div>
 
-            <!-- About List Item Start -->
-            <div class="about-list-item wow fadeInUp" data-wow-delay="0.2s">
-              <img src="/assets/images/icon-about-item-2.svg" alt="" />
-              <h3>Our vision</h3>
-              <p>
-                Our vision is to redefine the cybersecurity with innovative,
-                adaptive solutions that evolve.
-              </p>
+          <div class="col-lg-6">
+            <!-- Facts Image Box Start -->
+            <div class="facts-image-box">
+              <!-- Facts Image Start -->
+              <div class="facts-image">
+                <figure class="image-anime">
+                  <img
+                    src="https://fse.jegtheme.com/cytrix/wp-content/uploads/sites/111/2025/06/woman-with-laptop-server-room-and-it-engineer-and-datacenter-with-software-update-and-programming.webp"
+                    alt="
+                    "
+                  />
+                </figure>
+
+                <!-- Award Box Start -->
+                <div class="award-box">
+                  <h2><span class="counter">240</span>+</h2>
+                  <p>Award For Digital Innovation</p>
+                </div>
+                <!-- Award Box End -->
+
+                <!-- Facts Video Content Start -->
+                <div class="facts-video-content">
+                  <!-- Video Play Button Start -->
+                  <div class="video-play-button">
+                    <a
+                      href="https://www.youtube.com/watch?v=Y-x0efG1seA"
+                      class="popup-video"
+                      data-cursor-text="Play"
+                    >
+                      <i class="fa-solid fa-play"></i>
+                    </a>
+                  </div>
+                  <!-- Video Play Button End -->
+                  <h3>Let's See How We Did It</h3>
+                </div>
+                <!-- Facts Video Content End -->
+              </div>
+              <!-- Facts Image End -->
             </div>
-            <!-- About List Item End -->
+            <!-- Facts Image Box End -->
           </div>
-          <!-- About Us List End -->
-
-          <!-- About Us Body Start -->
-          <div class="about-us-body wow fadeInUp" data-wow-delay="0.4s">
-            <p>
-              We specialize in empowering cybersecurity startups with tailored,
-              innovative solutions designed to foster growth and establish a
-              trusted brand identity. From building a strong online presence to
-              delivering cutting-edge strategies, we combine precision,
-              expertise, and creativity.
-            </p>
-          </div>
-          <!-- About Us Body End -->
         </div>
-        <!-- About Us Content End -->
       </div>
     </div>
   </div>
 </div>
-<!-- About Us Section End -->
-
-<!-- Our Services Section Start -->
-<div class="our-services">
-  <div class="container">
-    <div class="row section-row align-items-center">
-      <div class="col-lg-6">
-        <!-- Section Title Start -->
-        <div class="section-title">
-          <h3 class="wow fadeInUp">Our services</h3>
-          <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
-            Protecting your business with tailored <span>security services</span
-            >
-          </h2>
-        </div>
-        <!-- Section Title End -->
-      </div>
-
-      <div class="col-lg-6">
-        <!-- Section Title Start -->
-        <div class="section-btn wow fadeInUp" data-wow-delay="0.4s">
-          <a href="/assets/images/services.html" class="btn-default"
-            >view all services</a
-          >
-        </div>
-        <!-- Section Title End -->
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-4 col-md-6">
-        <!-- Service Item Start -->
-        <div class="service-item wow fadeInUp">
-          <div class="icon-box">
-            <img src="/assets/images/icon-service-1.svg" alt="" />
-          </div>
-          <div class="service-item-content">
-            <h3>
-              <a href="service-single.html"
-                >Advanced Network Security and Threat Monitoring</a
-              >
-            </h3>
-            <p>
-              Prevent ransomware attacks and recover data efficiently with
-              advanced protect.
-            </p>
-          </div>
-          <div class="service-btn">
-            <a href="service-single.html" class="readmore-btn">read more</a>
-          </div>
-        </div>
-        <!-- Service Item End -->
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <!-- Service Item Start -->
-        <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
-          <div class="icon-box">
-            <img src="/assets/images/icon-service-2.svg" alt="" />
-          </div>
-          <div class="service-item-content">
-            <h3>
-              <a href="service-single.html"
-                >Proactive Threat Detection and Incident Response</a
-              >
-            </h3>
-            <p>
-              Prevent ransomware attacks and recover data efficiently with
-              advanced protect.
-            </p>
-          </div>
-          <div class="service-btn">
-            <a href="service-single.html" class="readmore-btn">read more</a>
-          </div>
-        </div>
-        <!-- Service Item End -->
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <!-- Service Item Start -->
-        <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
-          <div class="icon-box">
-            <img src="/assets/images/icon-service-3.svg" alt="" />
-          </div>
-          <div class="service-item-content">
-            <h3>
-              <a href="service-single.html"
-                >Managed Security Services for Complete Protection</a
-              >
-            </h3>
-            <p>
-              Prevent ransomware attacks and recover data efficiently with
-              advanced protect.
-            </p>
-          </div>
-          <div class="service-btn">
-            <a href="service-single.html" class="readmore-btn">read more</a>
-          </div>
-        </div>
-        <!-- Service Item End -->
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <!-- Service Item Start -->
-        <div class="service-item wow fadeInUp" data-wow-delay="0.6s">
-          <div class="icon-box">
-            <img src="/assets/images/icon-service-4.svg" alt="" />
-          </div>
-          <div class="service-item-content">
-            <h3>
-              <a href="service-single.html"
-                >Data Encryption and Backup Management Solutions</a
-              >
-            </h3>
-            <p>
-              Prevent ransomware attacks and recover data efficiently with
-              advanced protect.
-            </p>
-          </div>
-          <div class="service-btn">
-            <a href="service-single.html" class="readmore-btn">read more</a>
-          </div>
-        </div>
-        <!-- Service Item End -->
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <!-- Service Item Start -->
-        <div class="service-item wow fadeInUp" data-wow-delay="0.8s">
-          <div class="icon-box">
-            <img src="/assets/images/icon-service-5.svg" alt="" />
-          </div>
-          <div class="service-item-content">
-            <h3>
-              <a href="service-single.html"
-                >Cyber Risk Assessments and Compliance Solutions</a
-              >
-            </h3>
-            <p>
-              Prevent ransomware attacks and recover data efficiently with
-              advanced protect.
-            </p>
-          </div>
-          <div class="service-btn">
-            <a href="service-single.html" class="readmore-btn">read more</a>
-          </div>
-        </div>
-        <!-- Service Item End -->
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <!-- Service Item Start -->
-        <div class="service-item wow fadeInUp" data-wow-delay="1s">
-          <div class="icon-box">
-            <img src="/assets/images/icon-service-6.svg" alt="" />
-          </div>
-          <div class="service-item-content">
-            <h3>
-              <a href="service-single.html"
-                >Ransomware Protection and Recovery Services Expertise</a
-              >
-            </h3>
-            <p>
-              Prevent ransomware attacks and recover data efficiently with
-              advanced protect.
-            </p>
-          </div>
-          <div class="service-btn">
-            <a href="service-single.html" class="readmore-btn">read more</a>
-          </div>
-        </div>
-        <!-- Service Item End -->
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Our Services Section End -->
+<!-- Our Facts Section End -->
 
 <!-- Our Specialties Section Start -->
 <div class="our-specialties">
@@ -531,131 +268,203 @@ import background from "../assets/background.svg";
           <!-- Specialties Item End -->
         </div>
       </div>
-
-      <div class="col-lg-12">
-        <!-- Intro Video Box Start -->
-        <div class="intro-video-box">
-          <div class="intro-bg-image">
-            <figure class="image-anime reveal">
-              <img src="/assets/images/intro-bg-image.jpg" alt="" />
-            </figure>
-          </div>
-          <!-- Video Play Button Start -->
-          <div class="video-play-button">
-            <a
-              href="https://www.youtube.com/watch?v=Y-x0efG1seA"
-              class="popup-video"
-              data-cursor-text="Play"
-            >
-              <i class="fa-solid fa-play"></i>
-            </a>
-          </div>
-          <!-- Video Play Button End -->
-        </div>
-        <!-- Intro Video Box End -->
-      </div>
     </div>
   </div>
 </div>
 <!-- Our Specialties Section End -->
 
-<!-- Our Facts Section Start -->
-<div class="our-facts">
+
+<div class="container py-5">
+  <div class="row">
+      <!-- CTA Section (as in the third image) -->
+    <section class="cta-box py-5 section-title" >
+        <div class="cta-box-content p-5">
+            <h1 class="pt-5"> Don’t Wait for a Breach, Secure </br> <span class=""> Your Cyber Space Now!</span></h1>
+            <p class="pt-2 pb-5">Stay Ahead of Cyber Threats with Cytrix Security Solutions.</p>
+            <div style="margin-top: 25px;">               
+                <a href="/contactus" class="btn-default btn-highlighted">Contact us</a>
+            </div>
+        </div>
+    </section>
+  </div>
+</div>
+
+
+<!-- Our Success Section Start -->
+<div class="our-success">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-6">
-        <!-- Our Facts Content Start -->
-        <div class="our-facts-content">
+        <!-- Our Success Images Start -->
+        <div class="our-success-iamges">
+          <!-- Success image 1 Start -->
+          <div class="success-img-1">
+            <figure class="image-anime reveal">
+           
+                <img src="https://img.freepik.com/free-photo/person-with-futuristic-metaverse-avatar-mask_23-2149699834.jpg?t=st=1752031551~exp=1752035151~hmac=416c99d778107bc10bacbfb546825179daa0d15b7551c31183c0e413f59bf5cc&w=1380" alt="" />
+            </figure>
+          </div>
+          <!-- Success image 1 End -->
+
+          <!-- Success image 2 Start -->
+          <div class="success-img-2">
+            <figure class="image-anime reveal">
+                <img src="../assets/images/girl_cybersecurity.avif" alt="" />
+            </figure>
+          </div>
+          <!-- Success image 2 End -->
+        </div>
+        <!-- Our Success Images End -->
+      </div>
+      <div class="col-lg-6">
+        <!-- Our Success Content Start -->
+        <div class="our-success-content">
           <!-- Section Title Start -->
           <div class="section-title">
-            <h3 class="wow fadeInUp">Our Key Facts</h3>
+            <h3 class="wow fadeInUp">Our Sucess</h3>
             <h2
               class="wow fadeInUp"
               data-wow-delay="0.2s"
               data-cursor="-opaque"
             >
-              Insights into the growing importance <span>of cybersecurity</span>
+              Our core values the pillars of <span>our success</span>
             </h2>
             <p class="wow fadeInUp" data-wow-delay="0.4s">
               In a world where cyberattacks are becoming more sophisticated,
               your business deserves the best protection. Our expert team
               leverages cutting-edge technology.
             </p>
-            <p class="wow fadeInUp" data-wow-delay="0.6s">
-              Our expert team leverages cutting-edge technology In a world where
-              cyberattacks are becoming more best protection.
-            </p>
           </div>
           <!-- Section Title End -->
 
-          <!-- Our Specialties Button Start -->
-          <div class="our-facts-btn wow fadeInUp" data-wow-delay="0.8s">
-            <a href="contact.html" class="btn-default">learn more</a>
-          </div>
-          <!-- Our Specialties Button End -->
+          <!-- Success Item List Start -->
 
-          <!-- Facts Counter Box Start -->
-          <div class="facts-counter-box">
-            <!-- Facts Counter Item Start -->
-            <div class="facts-counter-item">
-              <h2><span class="counter">350</span>+</h2>
-              <p>Projects Success Rate 99%</p>
-            </div>
-            <!-- Facts Counter Item End -->
-
-            <!-- Facts Counter Item Start -->
-            <div class="facts-counter-item">
-              <h2><span class="counter">293</span>+</h2>
-              <p>Award For Digital Innovation</p>
-            </div>
-            <!-- Facts Counter Item End -->
-          </div>
-          <!-- Facts Counter Box End -->
-        </div>
-        <!-- Our Facts Content End -->
-      </div>
-
-      <div class="col-lg-6">
-        <!-- Facts Image Box Start -->
-        <div class="facts-image-box">
-          <!-- Facts Image Start -->
-          <div class="facts-image">
-            <figure class="image-anime">
-              <img src="/assets/images/facts-image.jpg" alt="" />
-            </figure>
-
-            <!-- Award Box Start -->
-            <div class="award-box">
-              <h2><span class="counter">240</span>+</h2>
-              <p>Award For Digital Innovation</p>
-            </div>
-            <!-- Award Box End -->
-
-            <!-- Facts Video Content Start -->
-            <div class="facts-video-content">
-              <!-- Video Play Button Start -->
-              <div class="video-play-button">
-                <a
-                  href="https://www.youtube.com/watch?v=Y-x0efG1seA"
-                  class="popup-video"
-                  data-cursor-text="Play"
-                >
-                  <i class="fa-solid fa-play"></i>
-                </a>
+          <div class="row">
+            <!-- Faqs Contact Item Start -->
+            <div
+              class="faqs-contact-item wow fadeInUp w-100"
+              data-wow-delay="0.6s"
+            >
+              <div class="icon-box">
+                <img src="/assets/images/icon-mail.svg" alt="" />
               </div>
-              <!-- Video Play Button End -->
-              <h3>Let's See How We Did It</h3>
+              <div class="faqs-contact-item-content">
+                <h3>real-time threat detection</h3>
+                <p>
+                  Real-Time Threat Detection provides instant monitoring &
+                  response to cyber threats, ensuring your devices and data
+                  remain secure.
+                </p>
+              </div>
             </div>
-            <!-- Facts Video Content End -->
+            <!-- Faqs Contact Item End -->
           </div>
-          <!-- Facts Image End -->
+
+          <div class="row py-5">
+            <!-- Faqs Contact Item Start -->
+            <div
+              class="faqs-contact-item wow fadeInUp w-100"
+              data-wow-delay="0.6s"
+            >
+              <div class="icon-box">
+                <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/243ca764-daca-4e30-aed3-3041a18f5498.png" alt="" />
+              </div>
+              <div class="faqs-contact-item-content">
+                <h3>malware and virus prevention</h3>
+                <p>
+                  malware and virus prevention provides instant monitoring &
+                  response to cyber threats, ensuring your devices and data
+                  remain secure.
+                </p>
+              </div>
+            </div>
+            <!-- Faqs Contact Item End -->
+          </div>
+
+          <!-- Success Item List End -->
         </div>
-        <!-- Facts Image Box End -->
+        <!-- Our Success Content End -->
       </div>
     </div>
   </div>
 </div>
-<!-- Our Facts Section End -->
+<!-- Our Success Section End -->
+
+<!-- YEAR OF EXPERIENCE START-->
+
+<div class="container">
+  <div class="row py-5">
+    <!-- Section Title Start -->
+    <div class="row section-row align-items-center">
+      <div class="col-lg-12">
+        <!-- Section Title Start -->
+        <div class="section-title section-title-center">
+          <h3 class="wow fadeInUp">About Us Exp</h3>
+          <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
+            We provide innovative solutions to help your cybersecurity startup
+            grow, building a trusted <span>brand with precision</span>
+          </h2>
+        </div>
+        <!-- Section Title End -->
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <!-- About Counter Box Start -->
+      <div class="about-counter-box">
+        <h2><span class="counter">12</span>+</h2>
+        <p>Years of work experience</p>
+      </div>
+      <!-- About Counter Box End -->
+    </div>
+
+    <div class="col-lg-8">
+      <!-- About Us Content Start -->
+      <div class="about-us-content">
+        <!-- About Us List Start -->
+        <div class="about-us-list">
+          <!-- About List Item Start -->
+          <div class="about-list-item wow fadeInUp">
+            <img src="/assets/images/icon-about-item-1.svg" alt="" />
+            <h3>Our mission</h3>
+            <p>
+              At the core of our mission is the belief that every business
+              deserves a customized cybersecurity.
+            </p>
+          </div>
+          <!-- About List Item End -->
+
+          <!-- About List Item Start -->
+          <div class="about-list-item wow fadeInUp" data-wow-delay="0.2s">
+            <img src="/assets/images/icon-about-item-2.svg" alt="" />
+            <h3>Our vision</h3>
+            <p>
+              Our vision is to redefine the cybersecurity with innovative,
+              adaptive solutions that evolve.
+            </p>
+          </div>
+          <!-- About List Item End -->
+        </div>
+        <!-- About Us List End -->
+
+        <!-- Center Title  Start -->
+        <div class="about-us-body wow fadeInUp" data-wow-delay="0.4s">
+          <p>
+            We specialize in empowering cybersecurity startups with tailored,
+            innovative solutions designed to foster growth and establish a
+            trusted brand identity. From building a strong online presence to
+            delivering cutting-edge strategies, we combine precision, expertise,
+            and creativity.
+          </p>
+        </div>
+        <!-- Center Title End -->
+      </div>
+      <!-- About Us Content End -->
+    </div>
+  </div>
+</div>
+<!-- YEAR OF EXPERIENCE End -->
+
+<Services />
 
 <!-- Why Choose Us Section Start -->
 <div class="why-choose-us">
@@ -674,9 +483,15 @@ import background from "../assets/background.svg";
                   data-wow-delay="0.2s"
                   data-cursor="-opaque"
                 >
-                  Trusted experts committed to securing <span>your digital</span
+                  We ensure comprehensive protection for your <span
+                    >business</span
                   >
                 </h2>
+                <p>
+                  Our team of highly skilled cybersecurity experts is committed
+                  to safeguarding your most sensitive data and protecting your
+                  digital assets from the ever-evolving cyber threats.
+                </p>
               </div>
               <!-- Section Title End -->
             </div>
@@ -700,7 +515,7 @@ import background from "../assets/background.svg";
                 <img src="/assets/images/icon-why-choose-item-1.svg" alt="" />
               </div>
               <div class="why-choose-item-content">
-                <h3>Tailored Security Solutions</h3>
+                <h3>Vulnerability Penetration Testing</h3>
                 <p>
                   Every business is unique, and so are our solutions. We
                   customize strategy fit your specific needs.
@@ -715,7 +530,7 @@ import background from "../assets/background.svg";
                 <img src="/assets/images/icon-why-choose-item-2.svg" alt="" />
               </div>
               <div class="why-choose-item-content">
-                <h3>Advanced Technology</h3>
+                <h3>Threat Intelligence</h3>
                 <p>
                   We use the latest tools and cutting-edge technologies to
                   safeguard your digital environment.
@@ -730,7 +545,7 @@ import background from "../assets/background.svg";
                 <img src="/assets/images/icon-why-choose-item-3.svg" alt="" />
               </div>
               <div class="why-choose-item-content">
-                <h3>Real-Time Threat Detection</h3>
+                <h3>Access Control Management</h3>
                 <p>
                   Stay ahead of attackers with pro active threat detection and
                   response systems that operate 24/7.
@@ -757,149 +572,6 @@ import background from "../assets/background.svg";
   </div>
 </div>
 <!-- Why Choose Us Section End -->
-
-<!-- Case Study Start -->
-<div class="case-study">
-  <div class="container">
-    <div class="row section-row align-items-center">
-      <div class="col-lg-6">
-        <!-- Section Title Start -->
-        <div class="section-title">
-          <h3 class="wow fadeInUp">Case Studies</h3>
-          <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
-            See how we've safeguarded <span>leading organizations</span>
-          </h2>
-        </div>
-        <!-- Section Title End -->
-      </div>
-
-      <div class="col-lg-6">
-        <!-- Section Button Start -->
-        <div class="section-btn wow fadeInUp" data-wow-delay="0.4s">
-          <a href="case-study.html" class="btn-default">View all studies</a>
-        </div>
-        <!-- Section Button End -->
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-4 col-md-6">
-        <!-- Case Study Item Start -->
-        <div class="case-study-item wow fadeInUp">
-          <!-- Case Study Image Start -->
-          <div class="case-study-image">
-            <a href="case-study-single.html" data-cursor-text="View">
-              <figure class="image-anime">
-                <img src="/assets/images/case-study-image-1.jpg" alt="" />
-              </figure>
-            </a>
-          </div>
-          <!-- Case Study Image End -->
-
-          <!-- Case Study Content Start -->
-          <div class="case-study-content">
-            <h3>
-              <a href="case-study-single.html"
-                >Strengthning Cybersecurity for a Law Firm</a
-              >
-            </h3>
-          </div>
-          <!-- Case Study Content End -->
-
-          <!-- Case Study Button Start -->
-          <div class="case-study-btn">
-            <a href="case-study-single.html"
-              ><img src="/assets/images/arrow-white.svg" alt="" /></a
-            >
-          </div>
-          <!-- Case Study Button End -->
-        </div>
-        <!-- Case Study Item End -->
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <!-- Case Study Item Start -->
-        <div class="case-study-item wow fadeInUp" data-wow-delay="0.2s">
-          <!-- Case Study Image Start -->
-          <div class="case-study-image">
-            <a href="case-study-single.html" data-cursor-text="View">
-              <figure class="image-anime">
-                <img src="/assets/images/case-study-image-2.jpg" alt="" />
-              </figure>
-            </a>
-          </div>
-          <!-- Case Study Image End -->
-
-          <!-- Case Study Content Start -->
-          <div class="case-study-content">
-            <h3>
-              <a href="case-study-single.html"
-                >Cloud Infrastructure for a SaaS Company</a
-              >
-            </h3>
-          </div>
-          <!-- Case Study Content End -->
-
-          <!-- Case Study Button Start -->
-          <div class="case-study-btn">
-            <a href="case-study-single.html"
-              ><img src="/assets/images/arrow-white.svg" alt="" /></a
-            >
-          </div>
-          <!-- Case Study Button End -->
-        </div>
-        <!-- Case Study Item End -->
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <!-- Case Study Item Start -->
-        <div class="case-study-item wow fadeInUp" data-wow-delay="0.4s">
-          <!-- Case Study Image Start -->
-          <div class="case-study-image">
-            <a href="case-study-single.html" data-cursor-text="View">
-              <figure class="image-anime">
-                <img src="/assets/images/case-study-image-3.jpg" alt="" />
-              </figure>
-            </a>
-          </div>
-          <!-- Case Study Image End -->
-
-          <!-- Case Study Content Start -->
-          <div class="case-study-content">
-            <h3>
-              <a href="case-study-single.html"
-                >Financial Data for a Global Investment Firm</a
-              >
-            </h3>
-          </div>
-          <!-- Case Study Content End -->
-
-          <!-- Case Study Button Start -->
-          <div class="case-study-btn">
-            <a href="case-study-single.html"
-              ><img src="/assets/images/arrow-white.svg" alt="" /></a
-            >
-          </div>
-          <!-- Case Study Button End -->
-        </div>
-        <!-- Case Study Item End -->
-      </div>
-
-      <div class="col-lg-12">
-        <!-- Section Footer Text Start -->
-        <div class="section-footer-text wow fadeInUp" data-wow-delay="0.6s">
-          <p>
-            Would you like to customize these facts further for your website? <a
-              href="contact.html">Contact Now</a
-            >
-          </p>
-        </div>
-        <!-- Section Footer Text End -->
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Case Study End -->
 
 <!-- Our Features Section Start -->
 <div class="our-features">
@@ -1001,859 +673,7 @@ import background from "../assets/background.svg";
 </div>
 <!-- Our Features Section End -->
 
-<!-- Our Pricing Section Start -->
-<div class="our-pricing">
-  <div class="container">
-    <div class="row section-row align-items-center">
-      <div class="col-lg-12">
-        <!-- Section Title Start -->
-        <div class="section-title section-title-center">
-          <h3 class="wow fadeInUp">our pricing</h3>
-          <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
-            Explore our pricing plans for <span>comprehensive security</span>
-          </h2>
-        </div>
-        <!-- Section Title End -->
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="col-lg-12">
-        <!-- Our Pricing Box Start -->
-        <div class="our-pricing-box wow fadeInUp" data-wow-delay="0.4s">
-          <div class="our-pricing-swich form-check form-switch">
-            <label
-              class="form-check-label"
-              for="planToggle"
-              id="toggleLabelMonthly">Monthly</label
-            >
-            <input class="form-check-input" type="checkbox" id="planToggle" />
-            <label
-              class="form-check-label"
-              for="planToggle"
-              id="toggleLabelYearly">Yearly</label
-            >
-          </div>
-          <!-- Sidebar Our Pricing Nav End -->
-
-          <!-- Pricing Tab Item Start -->
-          <div class="pricing-tab-item" id="monthly">
-            <div class="row">
-              <div class="col-lg-4 col-md-6">
-                <!-- Pricing Box Start -->
-                <div class="pricing-item">
-                  <!-- Pricing Header Start -->
-                  <div class="pricing-header section-title">
-                    <h3>Basic plan</h3>
-                    <h2>$29/month</h2>
-                    <p>
-                      * Advanced security features designed for efficiency &
-                      reliability
-                    </p>
-                  </div>
-                  <!-- Pricing Header End -->
-
-                  <!-- Pricing Body Start -->
-                  <div class="pricing-body">
-                    <ul>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                    </ul>
-                  </div>
-                  <!-- Pricing Body End -->
-
-                  <!-- Pricing Button Start -->
-                  <div class="pricing-btn">
-                    <a href="contact.html" class="btn-default"
-                      >Start Free Trial</a
-                    >
-                  </div>
-                  <!-- Pricing Button End -->
-                </div>
-                <!-- Pricing Box End -->
-              </div>
-
-              <div class="col-lg-4 col-md-6">
-                <!-- Pricing Box Start -->
-                <div class="pricing-item highlighted-box">
-                  <!-- Pricing Header Start -->
-                  <div class="pricing-header section-title">
-                    <h3>Popular Plan</h3>
-                    <h2>$89/month</h2>
-                    <p>
-                      * Advanced security features designed for efficiency &
-                      reliability
-                    </p>
-                  </div>
-                  <!-- Pricing Header End -->
-
-                  <!-- Pricing Body Start -->
-                  <div class="pricing-body">
-                    <ul>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                    </ul>
-                  </div>
-                  <!-- Pricing Body End -->
-
-                  <!-- Pricing Button Start -->
-                  <div class="pricing-btn">
-                    <a href="contact.html" class="btn-default"
-                      >Start Free Trial</a
-                    >
-                  </div>
-                  <!-- Pricing Button End -->
-                </div>
-                <!-- Pricing Box End -->
-              </div>
-
-              <div class="col-lg-4 col-md-6">
-                <!-- Pricing Box Start -->
-                <div class="pricing-item">
-                  <!-- Pricing Header Start -->
-                  <div class="pricing-header section-title">
-                    <h3>Pro plan</h3>
-                    <h2>$129/month</h2>
-                    <p>
-                      * Advanced security features designed for efficiency &
-                      reliability
-                    </p>
-                  </div>
-                  <!-- Pricing Header End -->
-
-                  <!-- Pricing Body Start -->
-                  <div class="pricing-body">
-                    <ul>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                    </ul>
-                  </div>
-                  <!-- Pricing Body End -->
-
-                  <!-- Pricing Button Start -->
-                  <div class="pricing-btn">
-                    <a href="contact.html" class="btn-default"
-                      >Start Free Trial</a
-                    >
-                  </div>
-                  <!-- Pricing Button End -->
-                </div>
-                <!-- Pricing Box End -->
-              </div>
-            </div>
-          </div>
-          <!-- Pricing Tab Item End -->
-
-          <!-- Pricing Tab Item Start -->
-          <div class="pricing-tab-item d-none" id="yearly">
-            <div class="row">
-              <div class="col-lg-4 col-md-6">
-                <!-- Pricing Box Start -->
-                <div class="pricing-item">
-                  <!-- Pricing Header Start -->
-                  <div class="pricing-header section-title">
-                    <h3>Basic plan</h3>
-                    <h2>$229/month</h2>
-                    <p>
-                      * Advanced security features designed for efficiency &
-                      reliability
-                    </p>
-                  </div>
-                  <!-- Pricing Header End -->
-
-                  <!-- Pricing Body Start -->
-                  <div class="pricing-body">
-                    <ul>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                    </ul>
-                  </div>
-                  <!-- Pricing Body End -->
-
-                  <!-- Pricing Button Start -->
-                  <div class="pricing-btn">
-                    <a href="contact.html" class="btn-default"
-                      >Start Free Trial</a
-                    >
-                  </div>
-                  <!-- Pricing Button End -->
-                </div>
-                <!-- Pricing Box End -->
-              </div>
-
-              <div class="col-lg-4 col-md-6">
-                <!-- Pricing Box Start -->
-                <div class="pricing-item highlighted-box">
-                  <!-- Pricing Header Start -->
-                  <div class="pricing-header section-title">
-                    <h3>Popular Plan</h3>
-                    <h2>$489/month</h2>
-                    <p>
-                      * Advanced security features designed for efficiency &
-                      reliability
-                    </p>
-                  </div>
-                  <!-- Pricing Header End -->
-
-                  <!-- Pricing Body Start -->
-                  <div class="pricing-body">
-                    <ul>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                    </ul>
-                  </div>
-                  <!-- Pricing Body End -->
-
-                  <!-- Pricing Button Start -->
-                  <div class="pricing-btn">
-                    <a href="contact.html" class="btn-default"
-                      >Start Free Trial</a
-                    >
-                  </div>
-                  <!-- Pricing Button End -->
-                </div>
-                <!-- Pricing Box End -->
-              </div>
-
-              <div class="col-lg-4 col-md-6">
-                <!-- Pricing Box Start -->
-                <div class="pricing-item">
-                  <!-- Pricing Header Start -->
-                  <div class="pricing-header section-title">
-                    <h3>Pro plan</h3>
-                    <h2>$2229/month</h2>
-                    <p>
-                      * Advanced security features designed for efficiency &
-                      reliability
-                    </p>
-                  </div>
-                  <!-- Pricing Header End -->
-
-                  <!-- Pricing Body Start -->
-                  <div class="pricing-body">
-                    <ul>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                      <li>Energy-Efficient Infrastructure</li>
-                    </ul>
-                  </div>
-                  <!-- Pricing Body End -->
-
-                  <!-- Pricing Button Start -->
-                  <div class="pricing-btn">
-                    <a href="contact.html" class="btn-default"
-                      >Start Free Trial</a
-                    >
-                  </div>
-                  <!-- Pricing Button End -->
-                </div>
-                <!-- Pricing Box End -->
-              </div>
-            </div>
-          </div>
-          <!-- Pricing Tab Item End -->
-        </div>
-        <!-- Our Pricing Box End -->
-
-        <!-- Pricing Benifit List Start -->
-        <div class="pricing-benefit-list wow fadeInUp" data-wow-delay="0.6s">
-          <ul>
-            <li>
-              <img src="/assets/images/icon-pricing-benefit-1.svg" alt="" />Get 30 day
-              free trial
-            </li>
-            <li>
-              <img src="/assets/images/icon-pricing-benefit-2.svg" alt="" />No any
-              hidden fees pay
-            </li>
-            <li>
-              <img src="/assets/images/icon-pricing-benefit-3.svg" alt="" />You can
-              cancel anytime
-            </li>
-          </ul>
-        </div>
-        <!-- Pricing Benifit List End -->
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Our Pricing Section End -->
-
-<!-- Our Testimonial Section Start -->
-<div class="our-testimonial">
-  <div class="container">
-    <div class="row section-row align-items-center">
-      <div class="col-lg-6">
-        <!-- Section Title Start -->
-        <div class="section-title">
-          <h3 class="wow fadeInUp">our testimonials</h3>
-          <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
-            Our clients speak real results <span>real protection</span>
-          </h2>
-        </div>
-        <!-- Section Title End -->
-      </div>
-
-      <div class="col-lg-6">
-        <!-- Customer Review Box Start -->
-        <div class="customer-review-box testimonial-customer-box">
-          <!-- Customer Review Images Start -->
-          <div class="customer-review-images">
-            <!-- Customer Image Start -->
-            <div class="customer-image reveal">
-              <figure class="image-anime">
-                <img src="/assets/images/author-1.jpg" alt="" />
-              </figure>
-            </div>
-            <!-- Customer Image End -->
-
-            <!-- Customer Image Start -->
-            <div class="customer-image reveal">
-              <figure class="image-anime">
-                <img src="/assets/images/author-2.jpg" alt="" />
-              </figure>
-            </div>
-            <!-- Customer Image End -->
-
-            <!-- Customer Image Start -->
-            <div class="customer-image reveal">
-              <figure class="image-anime">
-                <img src="/assets/images/author-3.jpg" alt="" />
-              </figure>
-            </div>
-            <!-- Customer Image End -->
-          </div>
-          <!-- Customer Review Images End -->
-
-          <!-- Customer Review Box Content Start -->
-          <div class="customer-review-content">
-            <p>More Than 1K+ trusted customers</p>
-          </div>
-          <!-- Customer Review Box Content End -->
-        </div>
-        <!-- Customer Review Box End -->
-      </div>
-    </div>
-
-    <div class="row align-items-center">
-      <div class="col-lg-4">
-        <!-- Testimonial Review Box Start -->
-        <div class="testimonial-review-box">
-          <!-- Testimonial Review Header Start -->
-          <div class="testimonial-review-header">
-            <h2><span class="counter">4.9</span></h2>
-            <div class="testimonial-rating">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <p>(<span class="counter">40</span>+ Reviews)</p>
-          </div>
-          <!-- Testimonial Review Header End -->
-
-          <!-- Testimonial Review Image Start -->
-          <div class="customer-review-images">
-            <div class="customer-image">
-              <figure class="image-anime reveal">
-                <img src="/assets/images/author-1.jpg" alt="" />
-              </figure>
-            </div>
-            <div class="customer-image">
-              <figure class="image-anime reveal">
-                <img src="/assets/images/author-2.jpg" alt="" />
-              </figure>
-            </div>
-            <div class="customer-image">
-              <figure class="image-anime reveal">
-                <img src="/assets/images/author-3.jpg" alt="" />
-              </figure>
-            </div>
-            <div class="customer-image">
-              <figure class="image-anime reveal">
-                <img src="/assets/images/author-4.jpg" alt="" />
-              </figure>
-            </div>
-            <div class="customer-image">
-              <figure class="image-anime reveal">
-                <img src="/assets/images/author-5.jpg" alt="" />
-              </figure>
-            </div>
-          </div>
-          <!-- Testimonial Review Image End -->
-
-          <!-- Testimonial Review Content Start -->
-          <div class="testimonial-review-content wow fadeInUp">
-            <h3>Customer experiences that speak for themselves</h3>
-          </div>
-          <!-- Testimonial Review Content End -->
-        </div>
-        <!-- Testimonial Review Box End -->
-      </div>
-
-      <div class="col-lg-8">
-        <!-- Testimonial Slider Start -->
-        <div class="testimonial-slider">
-          <div class="swiper">
-            <div class="swiper-wrapper" data-cursor-text="Drag">
-              <!-- Testimonial Slide Start -->
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <div class="testimonial-company-logo">
-                    <img src="/assets/images/icon-testimonial-logo.svg" alt="" />
-                  </div>
-                  <div class="testimonial-content">
-                    <p>
-                      The team transformed our brand's online presence with
-                      creativity & precision. The results exceeded our
-                      expectations! Their digital marketing strategies helped us
-                      reach a broader audience & significantly boosted our
-                      sales.
-                    </p>
-                  </div>
-                  <div class="testimonial-body">
-                    <div class="author-image">
-                      <figure class="image-anime">
-                        <img src="/assets/images/author-1.jpg" alt="" />
-                      </figure>
-                    </div>
-                    <div class="author-content">
-                      <h3>Sarah Mitchell</h3>
-                      <p>Marketing Director</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Testimonial Slide End -->
-
-              <!-- Testimonial Slide Start -->
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <div class="testimonial-company-logo">
-                    <img src="/assets/images/icon-testimonial-logo.svg" alt="" />
-                  </div>
-                  <div class="testimonial-content">
-                    <p>
-                      The team transformed our brand's online presence with
-                      creativity & precision. The results exceeded our
-                      expectations! Their digital marketing strategies helped us
-                      reach a broader audience & significantly boosted our
-                      sales.
-                    </p>
-                  </div>
-                  <div class="testimonial-body">
-                    <div class="author-image">
-                      <figure class="image-anime">
-                        <img src="/assets/images/author-2.jpg" alt="" />
-                      </figure>
-                    </div>
-                    <div class="author-content">
-                      <h3>Ronald richards</h3>
-                      <p>finance manager</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Testimonial Slide End -->
-            </div>
-            <div class="testimonial-btn">
-              <div class="testimonial-button-prev"></div>
-              <div class="testimonial-button-next"></div>
-            </div>
-          </div>
-        </div>
-        <!-- Testimonial Slider End -->
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Our Testimonial Section End -->
-
-<!-- Our Faqs Section Start -->
-<div class="our-faqs">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <!-- Faqs Content Start -->
-        <div class="faqs-content">
-          <!-- Section Title Start -->
-          <div class="section-title">
-            <h3 class="wow fadeInUp">Frequently Asked Questions</h3>
-            <h2
-              class="wow fadeInUp"
-              data-wow-delay="0.2s"
-              data-cursor="-opaque"
-            >
-              Your complete FAQ guide to <span> cybersecurity solutions</span>
-            </h2>
-          </div>
-          <!-- Section Title End -->
-
-          <!-- Faqs Contact Box Start -->
-          <div class="faqs-contact-box">
-            <!-- Faqs Contact Item Start -->
-            <div class="faqs-contact-item wow fadeInUp" data-wow-delay="0.4s">
-              <div class="icon-box">
-                <img src="/assets/images/sidebar-cta-img.svg" alt="" />
-              </div>
-              <div class="faqs-contact-item-content">
-                <h3>24/7 Customer Care</h3>
-                <p><a href="tel:659888695">(+1) 659-888-695</a></p>
-              </div>
-            </div>
-            <!-- Faqs Contact Item End -->
-
-            <!-- Faqs Contact Item Start -->
-            <div class="faqs-contact-item wow fadeInUp" data-wow-delay="0.6s">
-              <div class="icon-box">
-                <img src="/assets/images/icon-mail.svg" alt="" />
-              </div>
-              <div class="faqs-contact-item-content">
-                <h3>Technical Issues</h3>
-                <p>
-                  <a href="mailto:info@domainname.com">info@domainname.com</a>
-                </p>
-              </div>
-            </div>
-            <!-- Faqs Contact Item End -->
-          </div>
-          <!-- Faqs Contact Box End -->
-
-          <!-- Faqs Image Start -->
-          <div class="faqs-image">
-            <figure class="image-anime reveal">
-              <img src="/assets/images/faqs-image.jpg" alt="" />
-            </figure>
-          </div>
-          <!-- Faqs Image End -->
-        </div>
-        <!-- Faqs Content End -->
-      </div>
-
-      <div class="col-lg-6">
-        <!-- FAQ Accordion Start -->
-        <div class="faq-accordion" id="faqaccordion">
-          <!-- FAQ Item Start -->
-          <div class="accordion-item wow fadeInUp">
-            <h2 class="accordion-header" id="heading1">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapse1"
-                aria-expanded="true"
-                aria-controls="collapse1"
-              >
-                What is cybersecurity, and why is it important?
-              </button>
-            </h2>
-            <div
-              id="collapse1"
-              class="accordion-collapse collapse"
-              aria-labelledby="heading1"
-              data-bs-parent="#faqaccordion"
-            >
-              <div class="accordion-body">
-                <p>
-                  Absolutely! Small businesses are often targeted by
-                  cybercriminals because they typically have fewer defenses.
-                  Investing in cybersecurity helps protect your operations,
-                  data.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- FAQ Item End -->
-
-          <!-- FAQ Item Start -->
-          <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
-            <h2 class="accordion-header" id="heading2">
-              <button
-                class="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapse2"
-                aria-expanded="false"
-                aria-controls="collapse2"
-              >
-                Do small businesses need cybersecurity?
-              </button>
-            </h2>
-            <div
-              id="collapse2"
-              class="accordion-collapse collapse show"
-              aria-labelledby="heading2"
-              data-bs-parent="#faqaccordion"
-            >
-              <div class="accordion-body">
-                <p>
-                  Absolutely! Small businesses are often targeted by
-                  cybercriminals because they typically have fewer defenses.
-                  Investing in cybersecurity helps protect your operations,
-                  data.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- FAQ Item End -->
-
-          <!-- FAQ Item Start -->
-          <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
-            <h2 class="accordion-header" id="heading3">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapse3"
-                aria-expanded="false"
-                aria-controls="collapse3"
-              >
-                What is ransomware, and how can I protect?
-              </button>
-            </h2>
-            <div
-              id="collapse3"
-              class="accordion-collapse collapse"
-              aria-labelledby="heading3"
-              data-bs-parent="#faqaccordion"
-            >
-              <div class="accordion-body">
-                <p>
-                  Absolutely! Small businesses are often targeted by
-                  cybercriminals because they typically have fewer defenses.
-                  Investing in cybersecurity helps protect your operations,
-                  data.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- FAQ Item End -->
-
-          <!-- FAQ Item Start -->
-          <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
-            <h2 class="accordion-header" id="heading4">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapse4"
-                aria-expanded="false"
-                aria-controls="collapse4"
-              >
-                How do I know if my business has been hacked?
-              </button>
-            </h2>
-            <div
-              id="collapse4"
-              class="accordion-collapse collapse"
-              aria-labelledby="heading4"
-              data-bs-parent="#faqaccordion"
-            >
-              <div class="accordion-body">
-                <p>
-                  Absolutely! Small businesses are often targeted by
-                  cybercriminals because they typically have fewer defenses.
-                  Investing in cybersecurity helps protect your operations,
-                  data.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- FAQ Item End -->
-
-          <!-- FAQ Item Start -->
-          <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
-            <h2 class="accordion-header" id="heading5">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapse5"
-                aria-expanded="false"
-                aria-controls="collapse5"
-              >
-                How often should I update my cybersecurity?
-              </button>
-            </h2>
-            <div
-              id="collapse5"
-              class="accordion-collapse collapse"
-              aria-labelledby="heading5"
-              data-bs-parent="#faqaccordion"
-            >
-              <div class="accordion-body">
-                <p>
-                  Absolutely! Small businesses are often targeted by
-                  cybercriminals because they typically have fewer defenses.
-                  Investing in cybersecurity helps protect your operations,
-                  data.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- FAQ Item End -->
-        </div>
-        <!-- FAQ Accordion End -->
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Our Faqs Section End -->
-
-<!-- Our Blog Section Start -->
-<div class="our-blog">
-  <div class="container">
-    <div class="row section-row align-items-center">
-      <div class="col-lg-6">
-        <!-- Section Title Start -->
-        <div class="section-title">
-          <h3 class="wow fadeInUp">Latest blog</h3>
-          <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
-            Your source for cybersecurity <span>news and trends</span>
-          </h2>
-        </div>
-        <!-- Section Title End -->
-      </div>
-
-      <div class="col-lg-6">
-        <!-- Section Button Start -->
-        <div class="section-btn wow fadeInUp" data-wow-delay="0.4s">
-          <a href="blog.html" class="btn-default">view all blog</a>
-        </div>
-        <!-- Section Button End -->
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-4 col-md-6">
-        <!-- Post Item Start -->
-        <div class="post-item wow fadeInUp">
-          <!-- Post Featured Image Start-->
-          <div class="post-featured-image">
-            <a href="blog-single.html" data-cursor-text="View">
-              <figure class="image-anime">
-                <img src="/assets/images/post-1.jpg" alt="" />
-              </figure>
-            </a>
-          </div>
-          <!-- Post Featured Image End -->
-
-          <!-- Post Item Body Start -->
-          <div class="post-item-body">
-            <!-- Post Item Content Start -->
-            <div class="post-item-content">
-              <h2>
-                <a href="blog-single.html"
-                  >Top Cybersecurity Trends to Watch in 2025</a
-                >
-              </h2>
-            </div>
-            <!-- Post Item Content End -->
-
-            <!-- Post Item Readmore Button Start-->
-            <div class="post-item-btn">
-              <a href="blog-single.html" class="readmore-btn">read more</a>
-            </div>
-            <!-- Post Item Readmore Button End-->
-          </div>
-          <!-- Post Item Body End -->
-        </div>
-        <!-- Post Item End -->
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <!-- Post Item Start -->
-        <div class="post-item wow fadeInUp" data-wow-delay="0.2s">
-          <!-- Post Featured Image Start-->
-          <div class="post-featured-image">
-            <a href="blog-single.html" data-cursor-text="View">
-              <figure class="image-anime">
-                <img src="/assets/images/post-2.jpg" alt="" />
-              </figure>
-            </a>
-          </div>
-          <!-- Post Featured Image End -->
-
-          <!-- Post Item Body Start -->
-          <div class="post-item-body">
-            <!-- Post Item Content Start -->
-            <div class="post-item-content">
-              <h2>
-                <a href="blog-single.html"
-                  >How to Detect and Prevent Phishing Scams</a
-                >
-              </h2>
-            </div>
-            <!-- Post Item Content End -->
-
-            <!-- Post Item Readmore Button Start-->
-            <div class="post-item-btn">
-              <a href="blog-single.html" class="readmore-btn">read more</a>
-            </div>
-            <!-- Post Item Readmore Button End-->
-          </div>
-          <!-- Post Item Body End -->
-        </div>
-        <!-- Post Item End -->
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <!-- Post Item Start -->
-        <div class="post-item wow fadeInUp" data-wow-delay="0.4s">
-          <!-- Post Featured Image Start-->
-          <div class="post-featured-image">
-            <a href="blog-single.html" data-cursor-text="View">
-              <figure class="image-anime">
-                <img src="/assets/images/post-3.jpg" alt="" />
-              </figure>
-            </a>
-          </div>
-          <!-- Post Featured Image End -->
-
-          <!-- Post Item Body Start -->
-          <div class="post-item-body">
-            <!-- Post Item Content Start -->
-            <div class="post-item-content">
-              <h2>
-                <a href="blog-single.html"
-                  >Why Regular Security Audits Are Critical for Your Business</a
-                >
-              </h2>
-            </div>
-            <!-- Post Item Content End -->
-
-            <!-- Post Item Readmore Button Start-->
-            <div class="post-item-btn">
-              <a href="blog-single.html" class="readmore-btn">read more</a>
-            </div>
-            <!-- Post Item Readmore Button End-->
-          </div>
-          <!-- Post Item Body End -->
-        </div>
-        <!-- Post Item End -->
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Our Blog Section End -->
 
 <!-- CTA Box Start -->
 <div class="cta-box">
