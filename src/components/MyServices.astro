@@ -1,3 +1,8 @@
+---
+// components/ServiceButtons.astro
+const { showButton = false } = Astro.props;
+---
+
 <!-- Our Services Section Start -->
 <div class="our-services">
   <div class="container">
@@ -17,9 +22,9 @@
       <div class="col-lg-6">
         <!-- Section Title Start -->
         <div class="section-btn wow fadeInUp" data-wow-delay="0.4s">
-          <a href="/assets/images/services.html" class="btn-default"
-            >view all services</a
-          >
+        {showButton && (
+  <a href="/services" class="btn-default" >view all services</a>
+)}
         </div>
         <!-- Section Title End -->
       </div>
@@ -30,11 +35,11 @@
         <!-- Service Item Start -->
         <div class="service-item wow fadeInUp">
           <div class="icon-box">
-            <img src="/assets/images/icon-service-1.svg" alt="" />
+            <img src="/assets/images/icons/cybersecurity.svg" alt="Cybersecurity" />
           </div>
           <div class="service-item-content">
             <h3>
-              <a href="service-single.html"> Cybersecurity</a>
+              <a href="/cybersecurity"> Cybersecurity</a>
             </h3>
             <p>
               Cyber defense, cloud solutions, and network management to ensure
@@ -52,11 +57,11 @@
         <!-- Service Item Start -->
         <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
           <div class="icon-box">
-            <img src="/assets/images/icon-service-2.svg" alt="" />
+            <img src="/assets/images/icons/cloud-security.svg" alt="Cloud Solutions" />
           </div>
           <div class="service-item-content">
             <h3>
-              <a href="service-single.html">Cloud Solutions</a>
+              <a href="/cloudsolutions">Cloud Solutions</a>
             </h3>
             <p>
               Secure, scalable cloud migration, disaster recovery, and
@@ -75,7 +80,7 @@
         <!-- Service Item Start -->
         <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
           <div class="icon-box">
-            <img src="/assets/images/icon-service-3.svg" alt="" />
+            <img src="/assets/images/icons/network-solutions.svg" alt="Network Solutions" />
           </div>
           <div class="service-item-content">
             <h3>
@@ -97,7 +102,7 @@
         <!-- Service Item Start -->
         <div class="service-item wow fadeInUp" data-wow-delay="0.6s">
           <div class="icon-box">
-            <img src="/assets/images/icon-service-4.svg" alt="" />
+            <img src="/assets/images/icons/Data-Encryption.svg" alt="Data Encryption" />
           </div>
           <div class="service-item-content">
             <h3>

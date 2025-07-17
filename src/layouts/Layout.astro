@@ -3,12 +3,21 @@ import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import Breadcrumb from "../components/Breadcrumb.astro";
 import Preloader from "../components/Preloader.astro";
+
+const { 
+  title = 'Cyber Arch | Cyber Security Expert Solutions',
+  description = 'We provide top-tier cybersecurity services to protect your business'
+
+} = Astro.props
+
+
 ---
 
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+    <meta name="description" content= {description} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="stylesheet" href="/assets/css/all.min.css" />
     <link rel="stylesheet" href="/assets/css/animate.css" />
@@ -20,7 +29,7 @@ import Preloader from "../components/Preloader.astro";
     <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
 
     <meta name="generator" content={Astro.generator} />
-    <title>Astro Basics</title>
+    <title>{title}</title>
     <style>
       html,
       body {
@@ -38,8 +47,10 @@ import Preloader from "../components/Preloader.astro";
 
     <Footer />
 
+
     <!-- JavaScript files -->
     <script src="/assets/js/jquery-3.7.1.min.js" is:inline></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script src="/assets/js/bootstrap.min.js" is:inline></script>
     <script src="/assets/js/gsap.min.js" is:inline></script>
     <script src="/assets/js/ScrollTrigger.min.js" is:inline></script>
