@@ -1,19 +1,7 @@
 ---
-import {
-  EMAILJS_SERVICE_ID,
-  EMAILJS_TEMPLATE_ID,
-  EMAILJS_PUBLIC_KEY
-} from '../utils/email.ts';;
-
-
-//   const form = document.getElementById('contactForm');
-//   const msg = document.getElementById('msg');
-
-
 
 
 ---
-
   <!-- Page Header Start -->
   <div class="page-header">
     <!-- Grid Lines Start -->
@@ -67,12 +55,11 @@ import {
 
             <!-- Contact Form Start -->
             <div class="contact-form">
-              <form
-               id="contactForm"
-  method="POST"
-  class="wow fadeInUp"
-  data-wow-delay="0.2s"
-              >
+             <form
+                  id="contactForm"
+                    method="POST"        
+                     class="wow fadeInUp"
+                     data-wow-delay="0.2s"  >
                 <div class="row">
                   <div class="form-group col-md-6 mb-4">
                     <input
@@ -262,8 +249,34 @@ import {
   </div>
   <!-- Scrolling Ticker Section End -->
 
-<script is:inline >
+
+<!-- Place this script at the bottom of your .astro file -->
 
 
 
+<!-- Load config from public folder -->
+<script src="../utils/email-config.js"></script>
+
+<!-- Form logic -->
+<script is:inline>
+  document.getElementById('contactForm').addEventListener('submit', async function (event) {
+    event.preventDefault();
+
+    const form = event.target;
+    const formData = new FormData(form);
+    const formObject = Object.fromEntries(formData.entries());
+
+    emailjs.init(window.EMAILJS_PUBLIC_KEY);
+
+    try {
+      await emailjs.send(
+        window.EMAILJS_SERVICE_ID,
+        window.EMAILJS_TEMPLATE_ID,
+        formObject
+      );
+      console.log('✅ Email sent!');
+    } catch (err) {
+      console.error('❌ Error:', err);
+    }
+  });
 </script>

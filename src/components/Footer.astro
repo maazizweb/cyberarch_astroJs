@@ -1,5 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
+
+const CurrentYear = new Date().getFullYear();
 ---
 
 <!-- Footer Start -->
@@ -11,27 +13,33 @@ import Layout from "../layouts/Layout.astro";
         <div class="about-footer">
           <!-- Footer Logo Start -->
           <div class="footer-logo text-center mx-auto">
-            <img  class="w-50" src="./assets/images/logo/CyberArch_iIcon.svg" alt="CYBERARCH-ICON"  />
+            <img
+              class="w-50"
+              src="./assets/images/logo/logo-cyberarch-icon.svg"
+              alt="CYBERARCH-ICON"
+            />
           </div>
           <!-- Footer Logo End -->
 
           <!-- About Footer Content Start -->
           <div class="about-footer-content text-center">
             <p>
-        Cyberarch was founded with a simple yet powerful mission: to help businesses secure their operations, optimize their technology stack, and embrace the future confidently.
+              Cyberarch was founded with a simple yet powerful mission: to help
+              businesses secure their operations, optimize their technology
+              stack, and embrace the future confidently.
             </p>
           </div>
           <!-- About Footer Content End -->
 
           <!-- Footer Social Link Start -->
-          <div class="footer-social-links">
+          <div class="footer-social-links text-center">
             <ul>
-              <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+               <li>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </li>         
               <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
               <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-              <li>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-              </li>
+             
             </ul>
           </div>
           <!-- Footer Social Link End -->
@@ -46,7 +54,6 @@ import Layout from "../layouts/Layout.astro";
           <ul>
             <li><a href="/">home</a></li>
             <li><a href="/aboutus">about us</a></li>
-            <li><a href="#">services</a></li>
             <li><a href="/faq">Faq</a></li>
           </ul>
         </div>
@@ -58,10 +65,9 @@ import Layout from "../layouts/Layout.astro";
         <div class="footer-links">
           <h3>Our Services</h3>
           <ul>
-            <li><a href="service-single.html">Data Encryption</a></li>
-            <li><a href="service-single.html">Threat Monitoring</a></li>
-            <li><a href="service-single.html">Risk Assessments</a></li>
-            <li><a href="service-single.html">Backup Solutions</a></li>
+            <li><a href="service-single.html">Cyber Security</a></li>
+            <li><a href="service-single.html">Cloud Solutions</a></li>
+            <li><a href="service-single.html">Network Solutions</a></li>
           </ul>
         </div>
         <!-- Footer Links End -->
@@ -112,7 +118,7 @@ import Layout from "../layouts/Layout.astro";
       <div class="col-lg-12">
         <!-- Footer Copyright Start -->
         <div class="footer-copyright-text">
-          <p>Copyright © 2025 All Rights Reserved.</p>
+          <p>Copyright © {CurrentYear} All Rights Reserved.</p>
         </div>
         <!-- Footer Copyright End -->
       </div>
